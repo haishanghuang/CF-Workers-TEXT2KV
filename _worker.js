@@ -150,7 +150,7 @@ function 空格替换加号(str) {
 function 下载bat(域名,token) {
 	return [
 	  `@echo off`,
-	  `chcp 65001`,
+	  `chcp 300001`,
 	  `setlocal`,
 	  ``,
 	  `set "DOMAIN=${域名}"`,
